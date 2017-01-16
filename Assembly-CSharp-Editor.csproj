@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{38F2085C-DEC7-5486-60D4-17D6A5202F90}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Editor\Android\ManifestMod.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Editor\AudienceNetworkBuild.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Editor\AudienceNetworkConsoleEndpoint.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Editor\AudienceNetworkPostprocess.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Editor\AudienceNetworkSettingsEditor.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Editor\Utility.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Editor\CocoaPodHelper.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Editor\PostProcessor.cs" />
+     <Compile Include="Assets\BYSDK\PlayServicesResolver\Editor\AdMobDependencies.cs" />
+     <Compile Include="Assets\BYSDK\PlayServicesResolver\Editor\DefaultResolver.cs" />
+     <Compile Include="Assets\BYSDK\PlayServicesResolver\Editor\IResolver.cs" />
+     <Compile Include="Assets\BYSDK\PlayServicesResolver\Editor\PlayServicesResolver.cs" />
+     <Compile Include="Assets\BYSDK\PlayServicesResolver\Editor\ResolverVer1_1.cs" />
+     <Compile Include="Assets\BYSDK\PlayServicesResolver\Editor\SampleDependencies.cs" />
+     <Compile Include="Assets\BYSDK\PlayServicesResolver\Editor\SettingsDialog.cs" />
+     <Compile Include="Assets\Editor\InMobi\InMobiPostProcessBuild.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXBuildFile.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXBuildPhase.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXDictionary.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXFileReference.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXGroup.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXList.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXObject.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXParser.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\PBXProject.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XCBuildConfiguration.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XCConfigurationList.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XCFileOperationQueue.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XCMod.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XCProject.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XCSourceFile.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XCTarget.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XCodeEditorMenu.cs" />
+     <Compile Include="Assets\Editor\InMobi\XCodeEditor\XMiniJSON.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\Common\PGEditorUtils.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\PreRuntimePoolItemInspector.cs" />
+     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\SpawnPoolInspector.cs" />
+     <Compile Include="Assets\Editor\PostBuildProcessor.cs" />
+     <Compile Include="Assets\Editor\ResourceChecker.cs" />
+     <Compile Include="Assets\Editor\UULoog\CI\XcodePostprocess.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\AssetCatalog.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\JsonParser.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBX\Elements.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBX\Lexer.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBX\Objects.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBX\Parser.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBX\Sections.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBX\Serializer.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBX\Utils.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBXProject.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PBXProjectData.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\PlistParser.cs" />
+     <Compile Include="Assets\Editor\UULoog\Xcode\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Editor\Vungle\VunglePostBuilder.cs" />
+     <Compile Include="Assets\JumpMrQ\Editor\Welcome.cs" />
+     <None Include="Assets\BYSDK\Resources\UI-Default.shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\Vungle_lib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_oks_color_drawables.xml" />
+     <None Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\License.txt" />
+     <None Include="Assets\AudienceNetwork\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_instapaper_strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\BYSDK\Scripts\Module\DB\README.txt" />
+     <None Include="Assets\BYSDK\Plugins\InMobiAndroid\Manifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en\dimens.xml" />
+     <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+     <None Include="Assets\DOTween\DOTween43.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_oks_strings.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\BYSDK\Scripts\Module\AdsModule\README.txt" />
+     <None Include="Assets\BYSDK\Scripts\Module\Auth\README.txt" />
+     <None Include="Assets\Plugins\Android\res\values-en\strings.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\AndroidManifest.xml" />
+     <None Include="Assets\BYSDK\AudienceNetwork\Audience Network README.txt" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_oks_strings.xml" />
+     <None Include="Assets\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
+     <None Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\Readme.txt" />
+     <None Include="Assets\BYSDK\Plugins\ShareSDK.xml" />
+     <None Include="Assets\JumpMrQ\_README.txt" />
+     <None Include="Assets\BYSDK\Scripts\Module\NetWork\README.txt" />
+     <None Include="Assets\BYSDK\Plugins\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\loading.xml" />
+     <None Include="Assets\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\Android\res\menu\main.xml" />
+     <None Include="Assets\BYSDK\AudienceNetwork\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\DOTween\DOTween50.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_strings.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_strings.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_oks_classic_platform_cell_back.xml" />
+     <None Include="Assets\BYSDK\Scripts\Common\README.txt" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_oks_classic_progressbar.xml" />
+     <None Include="Assets\BYSDK\AudienceNetwork\Editor\Android\DefaultAndroidManifest.xml" />
+     <None Include="Assets\BYSDK\Plugins\PathologicalGames\readme.txt" />
+     <None Include="Assets\Plugins\Android\res\values-en\styles.xml" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PlaymodeTestsRunner">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/JsonNet/JsonNet-Lite/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="iBoxDB.NET2">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/lib/iBoxDB.NET2.dll</HintPath>
+ </Reference>
+ <Reference Include="JarResolverLib">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/PlayServicesResolver/Editor/JarResolverLib.dll</HintPath>
+ </Reference>
+ <Reference Include="TDGAAnalytics">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/Plugins/TDGAAnalytics.dll</HintPath>
+ </Reference>
+ <Reference Include="VungleSDKProxy">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/Plugins/VungleSDKProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C906A1EA-4BDA-B713-BC31-55DE4224A882}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

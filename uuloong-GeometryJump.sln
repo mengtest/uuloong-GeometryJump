@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uuloong-GeometryJump", "Assembly-CSharp-firstpass.csproj", "{C906A1EA-4BDA-B713-BC31-55DE4224A882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uuloong-GeometryJump", "Assembly-CSharp.csproj", "{69AF2231-9627-E282-520B-444B8F2376EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uuloong-GeometryJump", "Assembly-CSharp-Editor.csproj", "{38F2085C-DEC7-5486-60D4-17D6A5202F90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C906A1EA-4BDA-B713-BC31-55DE4224A882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C906A1EA-4BDA-B713-BC31-55DE4224A882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C906A1EA-4BDA-B713-BC31-55DE4224A882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C906A1EA-4BDA-B713-BC31-55DE4224A882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AF2231-9627-E282-520B-444B8F2376EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AF2231-9627-E282-520B-444B8F2376EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AF2231-9627-E282-520B-444B8F2376EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AF2231-9627-E282-520B-444B8F2376EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F2085C-DEC7-5486-60D4-17D6A5202F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F2085C-DEC7-5486-60D4-17D6A5202F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F2085C-DEC7-5486-60D4-17D6A5202F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F2085C-DEC7-5486-60D4-17D6A5202F90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

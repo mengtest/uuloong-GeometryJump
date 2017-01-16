@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{69AF2231-9627-E282-520B-444B8F2376EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Library\AdHandler.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Library\AdSettings.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Library\AdUtility.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Library\AdView.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Library\InterstitialAd.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Library\NativeAd.cs" />
+     <Compile Include="Assets\BYSDK\AudienceNetwork\Library\SdkVersion.cs" />
+     <Compile Include="Assets\BYSDK\Chartboost\Scripts\CBExternal.cs" />
+     <Compile Include="Assets\BYSDK\Chartboost\Scripts\CBInPlay.cs" />
+     <Compile Include="Assets\BYSDK\Chartboost\Scripts\CBJSON.cs" />
+     <Compile Include="Assets\BYSDK\Chartboost\Scripts\CBSettings.cs" />
+     <Compile Include="Assets\BYSDK\Chartboost\Scripts\Chartboost.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\ICustomInAppPurchase.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\ICustomInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\IDefaultInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\IInAppPurchaseResult.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\Android\CustomInAppPurchaseListener.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\Android\DefaultInAppPurchaseListener.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\Android\InAppPurchase.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\BYSDK\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\BYSDK\Interface\SDKEventManager.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\AdBuddiz\AdBuddizBinding.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\AdBuddiz\AdBuddizManager.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\AdBuddiz\AdBuddizRewardedVideoManager.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\AdColony.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\AppLovin\AppLovin.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\AppLovin\AppLovinEvents.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\InMobi\InMobiBinding.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\InMobi\InMobiManager.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\InMobi\InMobiMiniJSON.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\InMobiAndroid\InMobiAndroid.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\InMobiAndroid\InMobiAndroidManager.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\MainThreadDispatcher\UnityMainThreadDispatcher.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\PathologicalGames\PoolManager\PoolManager.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\PathologicalGames\PoolManager\PreRuntimePoolItem.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\PathologicalGames\PoolManager\SpawnPool.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\Android\AndroidImpl.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\ContentType.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\MiniJSON.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\PlatformType.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\ResponseState.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\ShareContent.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\ShareSDK.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\ShareSDKDevInfo.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\ShareSDKImpl.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\ShareSDK\iOS\iOSImpl.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\Vungle\AdFinishedEventArgs.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\Vungle\Android\VungleAndroid.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\Vungle\MiniJSONV.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\Vungle\Vungle.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\Vungle\VungleManager.cs" />
+     <Compile Include="Assets\BYSDK\Plugins\Vungle\iOS\VungleBinding.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\ActionResulet.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\ActionType.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\BYLog.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\ButtonScale.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\Constants.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\FrameRateControl.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\GameInfo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\GeoLocation\GeoLocation.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\Loading\LoadFailed\LoadFailed.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\Loading\LoadFailed\LoadFailedTips.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\Loading\Loading.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\Lunch.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\SDKUtiles.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\Splash.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Common\Widget\RichText.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Config\AdsConfig.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Config\Config.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Kenel\EventManage\EventManage.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Kenel\EventManage\SDKEvent.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Kenel\SDKKener.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\AdBuddiz\AdBuddizAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\AdEvent.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\AdListenerProxy.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\AdManager.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\AppLovIn\AppLIAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\AppLovIn\AppLIEvents.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Banner\AbstractBanner.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Banner\BaiduBanner.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Banner\DomobBanner.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Banner\FacebookBanner.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Banner\GoogleBanner.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Banner\InMoBiBanner.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Banner\MobiSageBanner.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Banner\TencentBanner.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\IAdListener.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\InMoBi\InMoBi.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\InMoBi\InMoBiAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\InMoBi\InMoBiAndroid.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\InMoBi\InMoBiBannerEventHandle.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\InMoBi\InMoBiEventHandle.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\InMoBi\InMoBiIOS.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\InMoBi\InMobiEventListener.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\AbstractInterstitial.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\AdBuddizInterstitial.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\AppLovInInterstitial.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\BaiduInterstitialAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\ChartboostInterstitialAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\DomobInterstitial.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\FacebookInterstitialAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\GoogleInterstitialAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\InmobiInterstitlal.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\MobiSageInterstitial.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Interstitial\TencentInterstitialAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\TecentGDT\TecentGDTAds.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\TecentGDT\TecentGDTEvents.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Vendor\Inmobi.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\AbstractVideo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\AdBuddizVideo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\AdColonyVideo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\AppLovInVideo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\BYVideoResulte.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\ChartboostVideo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\GoogleVideo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\UnityVideo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Ads\Video\VungleVideo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\AdsCollect\DataCollecter.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\AdsDataManager.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\AdsDefault\AdsContest.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\AdsDefault\AdsData.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\AdsDefault\AdsIndividualData.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\AdsDefault\Configure.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\AdsDefault\DefaultConfig.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\AdsFactory.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\AdsQueue.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\ConfigKey.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\ConfiguerManager.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\GameNodeManager.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\GlobalConfig.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\SDKAdsType.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\AdsModule\Configure\StrategyManager.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Auth\Auth.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Auth\AuthManage.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Auth\AuthStruct.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Auth\FriendStruct.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Auth\Friends.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Auth\Integral.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Auth\IntegralStruct.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Auth\User.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Bugly\BuglyManage.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\DB\DBOperation.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\DB\Model\AdsModel.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\DB\Model\AdsStage.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\DB\Model\ConfigleModule.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\DB\Model\GameNodeModel.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\GameCenter\GameCenterM.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\NetWork\Http\HttpCallBack.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\NetWork\Http\HttpOperation.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\NetWork\Http\HttpRequest.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\NetWork\Http\HttpResponse.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\NetWork\Net\Reachability.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\NetWork\SDKNetUtls.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Share\SYSShareIOS.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Share\ShareControl.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Share\ShareListener.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Share\ShareManage.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\Share\ShareType.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\UmengPush\UMPush.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\UmengPush\UMPushAndroid.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\UmengPush\UMPushExample.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Module\UmengPush\UMPushiOS.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\SDKManage\BannerAdsManage.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\SDKManage\CommentGame.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\SDKManage\InterAdsManage.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\SDKManage\UULongAdsSDK.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\SDKManage\VideoAdsManage.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\AotTypes.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\CsvHelper\CsvFileCommon.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\CsvHelper\CsvFileReader.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\CsvHelper\CsvFileWriter.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\CsvHelper\EmptyLineBehavior.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\About.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\DataReaderProvider.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\DataWriterProvider.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\EcmaScriptIdentifier.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\EcmaScriptWriter.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\IDataReader.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\IDataWriter.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\IJsonSerializable.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonDataReader.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonDataWriter.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonIgnoreAttribute.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonMemberAttribute.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonNameAttribute.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonOptInAttribute.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonReader.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonReaderSettings.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonSerializationException.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonSpecifiedPropertyAttribute.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonToken.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonWriter.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\JsonWriterSettings.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\Properties\AssemblyVersion.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\ReferenceHandler.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\XmlDataReader.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\XmlDataWriter.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\Localization\LanguageText.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\Localization\Localization.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\Localization\LocalizationData.cs" />
+     <Compile Include="Assets\BYSDK\Scripts\Utils\Resolution\MultiResolution.cs" />
+     <Compile Include="Assets\BYSDK\TalkingDataScripts\TDGAAccount.cs" />
+     <Compile Include="Assets\BYSDK\TalkingDataScripts\TDGAItem.cs" />
+     <Compile Include="Assets\BYSDK\TalkingDataScripts\TDGAMission.cs" />
+     <Compile Include="Assets\BYSDK\TalkingDataScripts\TDGAVirtualCurrency.cs" />
+     <Compile Include="Assets\BYSDK\TalkingDataScripts\TalkingDataGA.cs" />
+     <Compile Include="Assets\BYSDK\TalkingDataScripts\TalkingDataScript.cs" />
+     <Compile Include="Assets\BYSDK\lib\UnityDBCS.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Animation\AnimButtonHierarchy.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Animation\AnimationScore.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Animation\AnimationTextTuto.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Animation\AnimationTransition.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Animation\AnimationTransitionManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Animation\ButtonAnimation.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Animation\CameraShake.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Animation\ParallaxSprite.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Class\Enums.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Class\Item.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Class\RoleItem.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Class\Score.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Class\Seasons.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\AppExit.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\ButtonSoundControl.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\Config.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\Constants.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\FixeSpritePlayerSize.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\InformationCtrl.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\InputTouch.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\InstantiateUtil.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\MessageBoxAnimation.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\PlayerData.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\PlayerPrefsX.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\PlayerResManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\RendererExtensions.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\ResizeBackgroundSize.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Comm\ShareDataModel.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\CanvasManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\ContinuousMove.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\DiamondLogic.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\DiamongTextColor.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\GameConfig.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\MaskIcon.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\MonoBehaviorHelper.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\MoveLevel.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\ObstacleDestroyer.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\PlatformLogic.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\RectangleBomb.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\ScoreColor.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\SeasonManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\UpdateSpriteColor.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Game\WheelAnim.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Home\BuyRoles.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Home\CloundMove.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Home\HomePageManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Home\LeafAnim.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Home\RoleSelectManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Home\SelectMaskLogic.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Manager\GameManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Manager\MainCameraManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Manager\PlayerManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Manager\RateUsManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Manager\SettingManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Manager\SoundManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Parallax\Parallaxing.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Pop\BtnPauseControl.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Pop\RateDiamondManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Pop\SettleAccountControl.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\SDKEventManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Scenes\SceneConfig.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Scenes\ScenesSwitch.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Scenes\SwitchSceneManager.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Scenes\WaterWaveMOve.cs" />
+     <Compile Include="Assets\JumpMrQ\Scripts\Scenes\WildGooseFly.cs" />
+     <None Include="Assets\BYSDK\Resources\UI-Default.shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\Vungle_lib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_oks_color_drawables.xml" />
+     <None Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\License.txt" />
+     <None Include="Assets\AudienceNetwork\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_instapaper_strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\BYSDK\Scripts\Module\DB\README.txt" />
+     <None Include="Assets\BYSDK\Plugins\InMobiAndroid\Manifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en\dimens.xml" />
+     <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+     <None Include="Assets\DOTween\DOTween43.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_oks_strings.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\BYSDK\Scripts\Module\AdsModule\README.txt" />
+     <None Include="Assets\BYSDK\Scripts\Module\Auth\README.txt" />
+     <None Include="Assets\Plugins\Android\res\values-en\strings.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\AndroidManifest.xml" />
+     <None Include="Assets\BYSDK\AudienceNetwork\Audience Network README.txt" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_oks_strings.xml" />
+     <None Include="Assets\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
+     <None Include="Assets\BYSDK\Scripts\Utils\JsonFx.Json\Readme.txt" />
+     <None Include="Assets\BYSDK\Plugins\ShareSDK.xml" />
+     <None Include="Assets\JumpMrQ\_README.txt" />
+     <None Include="Assets\BYSDK\Scripts\Module\NetWork\README.txt" />
+     <None Include="Assets\BYSDK\Plugins\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\loading.xml" />
+     <None Include="Assets\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\Android\res\menu\main.xml" />
+     <None Include="Assets\BYSDK\AudienceNetwork\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\DOTween\DOTween50.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_strings.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_strings.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_oks_classic_platform_cell_back.xml" />
+     <None Include="Assets\BYSDK\Scripts\Common\README.txt" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_oks_classic_progressbar.xml" />
+     <None Include="Assets\BYSDK\AudienceNetwork\Editor\Android\DefaultAndroidManifest.xml" />
+     <None Include="Assets\BYSDK\Plugins\PathologicalGames\readme.txt" />
+     <None Include="Assets\Plugins\Android\res\values-en\styles.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/JsonNet/JsonNet-Lite/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="iBoxDB.NET2">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/lib/iBoxDB.NET2.dll</HintPath>
+ </Reference>
+ <Reference Include="TDGAAnalytics">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/Plugins/TDGAAnalytics.dll</HintPath>
+ </Reference>
+ <Reference Include="VungleSDKProxy">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/BYSDK/Plugins/VungleSDKProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/GameWork/uuloong-GeometryJump/Assets/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>D:/OthrtSofot/Unity3D/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C906A1EA-4BDA-B713-BC31-55DE4224A882}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
