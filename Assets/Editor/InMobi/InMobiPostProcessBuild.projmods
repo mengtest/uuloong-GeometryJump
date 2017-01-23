@@ -1,0 +1,24 @@
+{
+    "group":       "InMobi",
+    "libs":        [],
+    "frameworks":  ["AdSupport.framework",
+                    "Security.framework",
+                    "CoreTelephony.framework",
+                    "MessageUI.framework",
+                    "StoreKit.framework",
+                    "EventKit.framework",
+                    "EventKitUI.framework"],
+    "headerpaths": [],
+    "librarypaths": ["SDK"],
+    "files":       ["InMobiBinding.m",
+                    "InMobiManager.h",
+                    "InMobiManager.mm"],
+    "folders":     ["SDK"],
+    "buildSettings": { 
+        "OTHER_LDFLAGS" : ["-ObjC",
+                           "-lsqlite3.0",
+                           "-lz",
+                           "iconv.2"]
+    },
+    "excludes":    ["^.*.meta$", "^.*.mdown^", "^.*.pdf$"]
+}

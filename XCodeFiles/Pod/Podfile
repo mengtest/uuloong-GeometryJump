@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
+target 'Unity-iPhone' do
+    pod 'Google-Mobile-Ads-SDK', '~> 7.6'
+
+    pod 'ShareSDK3'
+    pod 'MOBFoundation'
+    pod 'ShareSDK3/ShareSDKUI'
+    pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+    pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+    pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+
+    pod 'ShareSDK3/ShareSDKPlatforms/Messenger'
+    pod 'ShareSDK3/ShareSDKPlatforms/RenRen'
+    pod 'ShareSDK3/ShareSDKPlatforms/AliPaySocial'
+    pod 'ShareSDK3/ShareSDKPlatforms/Kakao'
+    pod 'ShareSDK3/ShareSDKPlatforms/Yixin'
+
+    pod 'AdColony'
+end

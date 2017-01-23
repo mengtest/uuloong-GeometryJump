@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 172f7c0390457404c90765b039cd4e8f
+timeCreated: 1472998824
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - LiHei Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: aab3d4130a9f4e242ac30d4daee66da5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

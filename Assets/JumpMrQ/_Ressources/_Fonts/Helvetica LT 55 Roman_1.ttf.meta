@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f9b6c69d9aec2a540b14618894da70c0
+timeCreated: 1481618303
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - HelveticaNeue LT 55 Roman
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cb75e6ed482073146bf5c389a3591f93, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
